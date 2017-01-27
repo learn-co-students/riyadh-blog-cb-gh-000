@@ -1,16 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
 
+@font-face {
+  font-family: 'Gabriela';
+  src: url('http://fonts.googleapis.com/css?family=Gabriela');
+}
+
+
 html, body {
   height: 100%;
   min-height: 100%;
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: url("../images/backgrounds/architecture.jpg");
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  background-size: cover;
 }
 
 .wrapper {
@@ -20,8 +25,8 @@ body {
 }
 
 #content {
+  background: linear-gradient(to top, #b6cd46, #f1da36);
   padding: 20px;
-  background: rgba(255,255,255,.85);
 }
 
 h1, h2 {
@@ -32,6 +37,9 @@ h1, h2 {
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+}
+h1 span {
+  color: red;
 }
 
 h2 {
@@ -45,23 +53,29 @@ h3 {
   margin-top: .5em;
 }
 
+
 img {
   max-width: 100%;
   width: 100%;
   height: auto;
 }
 
-p {
-  font-size: 1em;
+p, a {
+  font-size: 17px;
+  font-family: 'Comic Sans MS';
 }
 
 a {
-  color: black;
+  color: red;
   text-decoration: none;
 }
 
 a:hover {
+  color: blue;
   text-decoration: underline;
+}
+.sources {
+  color: blue;
 }
 
 @media only screen and (max-width: 1042px) {
