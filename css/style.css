@@ -41,8 +41,12 @@ h2 {
 
 h3 {
   font-family: 'Gabriela', serif;
-  font-size: 1.5em;
+  font-size: 2em;
   margin-top: .5em;
+}
+h5{
+  font-size: 1em;
+  font-style: bold;
 }
 
 img {
@@ -56,12 +60,13 @@ p {
 }
 
 a {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline; text-decoration-color: blue
+
 }
 
 @media only screen and (max-width: 1042px) {
