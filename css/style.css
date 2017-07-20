@@ -6,7 +6,8 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: linear-gradient(70deg, rgba(0,220,30,0.6),rgba(0,150,70,0.3));
+  background-position:center;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -62,6 +63,12 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+.wrapper h3 {
+  color:white;
+}
+#content h2 {
+  color:brown;
 }
 
 @media only screen and (max-width: 1042px) {
