@@ -6,9 +6,7 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: linear-gradient(70deg, #f5f5d5, pink);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
@@ -21,12 +19,12 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(255, 255, 255, .618);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: #111;
 }
 
 h1 {
@@ -52,11 +50,13 @@ img {
 }
 
 p {
+  font-family: 'Inconsolata', Courier;
   font-size: 1em;
 }
 
 a {
-  color: black;
+  font-family: 'Inconsolata', Courier;
+  color: #00BCE1;
   text-decoration: none;
 }
 
