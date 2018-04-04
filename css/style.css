@@ -15,8 +15,9 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  width: 60%;
-  padding-bottom: 40px;
+  width: 80%;
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 #content {
