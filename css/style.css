@@ -11,7 +11,9 @@ body {
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  background-color: black;
 }
+
 
 .wrapper {
   margin: 0 auto;
@@ -37,6 +39,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   margin-top: .5em;
+  color: black;
 }
 
 h3 {
@@ -53,6 +56,8 @@ img {
 
 p {
   font-size: 1em;
+  color: black;
+  font-weight: bold;
 }
 
 a {
