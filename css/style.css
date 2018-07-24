@@ -26,7 +26,7 @@ body {
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: black;
+  color: green;
 }
 
 h1 {
@@ -53,6 +53,7 @@ img {
 
 p {
   font-size: 1.3em;
+  color: green
 }
 
 a {
