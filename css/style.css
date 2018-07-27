@@ -84,3 +84,8 @@ a:hover {
     width: 95%;
   }
 }
+
+
+a {
+  font-color: #000;
+}
