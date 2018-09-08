@@ -6,11 +6,14 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: #1e5799;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  background: -moz-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .wrapper {
@@ -24,14 +27,13 @@ body {
   background: rgba(255,255,255,.85);
 }
 
-h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
-}
+
 
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+  font-family: 'Gabriela', serif;
+  color: #fff;
 }
 
 h2 {
